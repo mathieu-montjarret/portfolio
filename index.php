@@ -145,7 +145,7 @@ if ($_POST) {
                     <i class="far fa-lightbulb description-icon"></i>
                     <h3>Créatif</h3>
                     <p>J'ai toujours des nouvelles idées et cherche comment les assimiler aux projets sur lesquels je
-                        travail</p>
+                        travaille</p>
                 </div>
 
                 <div class="description-part gradient from-left">
@@ -165,7 +165,7 @@ if ($_POST) {
                 <div class="description-part gradient from-right">
                     <i class="fas fa-battery-three-quarters description-icon"></i>
                     <h3>Déterminé</h3>
-                    <p>Je ne lâche pas mes objectifs de vue et sait me donner les moyens pour les atteindres</p>
+                    <p>Je ne lâche pas mes objectifs de vue et sais me donner les moyens pour les atteindre</p>
                 </div>
             </div>
         </section>
