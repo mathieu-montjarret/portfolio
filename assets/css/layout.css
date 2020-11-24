@@ -327,9 +327,6 @@ article p a {
 /* section : contact ---------------------------------------------*/
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: white;
     padding: 20px;
 }
@@ -338,14 +335,13 @@ article p a {
     padding: 80px;
 }
 
-form {
-    width: 100%;
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.informations input {
+input {
     width: 400px;
     height: 50px;
     margin: 30px;
@@ -366,12 +362,6 @@ form {
     border: 2px solid black;
     outline: none;
     box-shadow: 10px 10px 6px -6px grey
-}
-
-textarea {
-    border: 2px solid black;
-    border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .message ::-moz-placeholder {
@@ -503,7 +493,7 @@ footer p {
     box-shadow: 10px 10px 6px -6px black;
 }
 
-.bg-dark .informations input{
+.bg-dark input{
     box-shadow: 10px 10px 6px -6px black;
 }
 
@@ -539,7 +529,7 @@ footer p {
 .from-top{
     opacity: 0;
     transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
-    transform: translateY(-20px);
+    transform: translateY(-50px);
 }
 
 .from-right,
@@ -596,12 +586,22 @@ footer p {
         width: 60%;
     }
 
-    .informations input {
+    input {
         width: 300px;
         height: 50px;
         margin: 30px;
         text-align: center;
         border: 2px solid black;
+        box-shadow: 10px 10px 6px -6px grey
+    }
+
+    .message {
+        margin: 20px;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        border-color: black;
+        box-shadow: 10px 10px 6px -6px grey
     }
 }
 
@@ -611,12 +611,13 @@ footer p {
         text-align: center;
     }
 
-    .informations input {
+    input {
         width: 200px;
         height: 50px;
         margin: 30px;
         text-align: center;
         border: 2px solid black;
+        box-shadow: 10px 10px 6px -6px grey
     }
 
     .message {
@@ -625,5 +626,6 @@ footer p {
         height: 100px;
         text-align: center;
         border-color: black;
+        box-shadow: 10px 10px 6px -6px grey
     }
 }

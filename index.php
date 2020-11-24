@@ -66,7 +66,6 @@ if ($_POST) {
         $pdoStat->execute();
     }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -201,33 +200,29 @@ if ($_POST) {
 
             <p class="thanks"><?php if (isset($valid)) echo $valid ?></p>
             <form method="POST" action="">
-                <div class="informations">
 
-                    <div>
-                        <input class="input1" id="firstname" type="text" name="firstname" placeholder="Prénom" value="<?php if (isset($_POST['firstname']) && isset($valid)) echo '';
-                                                                                                                        elseif (isset($_POST['firstname'])) echo $_POST['firstname']; ?>">
-                        <p class="error"><?php if (isset($errorFirstname)) echo $errorFirstname ?></p>
-                    </div>
+                <input class="input1" id="firstname" type="text" name="firstname" placeholder="Prénom" value="<?php if (isset($_POST['firstname']) && isset($valid)) echo '';
+                                                                                                                elseif (isset($_POST['firstname'])) echo $_POST['firstname']; ?>">
+                <p class="error"><?php if (isset($errorFirstname)) echo $errorFirstname ?></p>
 
-                    <div>
-                        <input class="input1" id="lastname" type="text" name="lastname" placeholder="Nom" value="<?php if (isset($_POST['lastname']) && isset($valid)) echo '';
-                                                                                                                    elseif (isset($_POST['lastname'])) echo $_POST['lastname']; ?>">
-                        <p class="error"><?php if (isset($errorLastname)) echo $errorLastname ?></p>
-                    </div>
 
-                    <div>
-                        <input class="input1" id="email" type="mail" name="email" placeholder="Email" value="<?php if (isset($_POST['email']) && isset($valid)) echo '';
-                                                                                                                elseif (isset($_POST['email'])) echo $_POST['email']; ?>">
-                        <p class="error"><?php if (isset($errorEmail)) echo $errorEmail ?></p>
-                    </div>
 
-                    <div>
-                        <input class="input1" id="subject" type="text" name="subject" placeholder="Sujet" value="<?php if (isset($_POST['subject']) && isset($valid)) echo '';
-                                                                                                                    elseif (isset($_POST['subject'])) echo $_POST['subject']; ?>">
-                        <p class="error"><?php if (isset($errorSubject)) echo $errorSubject ?></p>
-                    </div>
+                <input class="input1" id="lastname" type="text" name="lastname" placeholder="Nom" value="<?php if (isset($_POST['lastname']) && isset($valid)) echo '';
+                                                                                                            elseif (isset($_POST['lastname'])) echo $_POST['lastname']; ?>">
+                <p class="error"><?php if (isset($errorLastname)) echo $errorLastname ?></p>
 
-                </div>
+
+
+                <input class="input1" id="email" type="mail" name="email" placeholder="Email" value="<?php if (isset($_POST['email']) && isset($valid)) echo '';
+                                                                                                        elseif (isset($_POST['email'])) echo $_POST['email']; ?>">
+                <p class="error"><?php if (isset($errorEmail)) echo $errorEmail ?></p>
+
+
+
+                <input class="input1" id="subject" type="text" name="subject" placeholder="Sujet" value="<?php if (isset($_POST['subject']) && isset($valid)) echo '';
+                                                                                                            elseif (isset($_POST['subject'])) echo $_POST['subject']; ?>">
+                <p class="error"><?php if (isset($errorSubject)) echo $errorSubject ?></p>
+
 
                 <textarea type="text" id="message" class="message" name="message" placeholder="Votre message"><?php if (isset($_POST['message']) && isset($valid)) echo '';
                                                                                                                 elseif (isset($_POST['message'])) echo $_POST['message']; ?></textarea>

@@ -41,7 +41,7 @@ $(document).ready(function () {
 
   /*          onload effect          */
 
-  $(window).on('load', function () {
+  $(document).ready(function () {
       var title = $('.from-top');
       $(title).css("transform", "translate(0,0)");
       $(title).css("opacity", "1");  
