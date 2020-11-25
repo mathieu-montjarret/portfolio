@@ -181,7 +181,7 @@ if ($_POST) {
                     <p class="p-article1"><a href="https://tousfemme.fr/" target="_blank">Tous Femme</a></p>
                 </article>
                 <article class="article2 from-left">
-                    <p class="p-article2"><a href="#projects">Vieni a Gustare (En cours)</a></p>
+                    <p class="p-article2"><a href="vieniagustare/index.php">Vieni a Gustare</a></p>
                 </article>
                 <article class="article3 from-right">
                     <p class="p-article3"><a href="#projects">En cours</a></p>
