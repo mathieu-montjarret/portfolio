@@ -184,7 +184,7 @@ if ($_POST) {
                     <p class="p-article2"><a href="vieniagustare/index.php">Vieni a Gustare</a></p>
                 </article>
                 <article class="article3 from-right">
-                    <p class="p-article3"><a href="#projects">En cours</a></p>
+                    <p class="p-article3"><a href="meteo/index.html">Météo AJAX</a></p>
                 </article>
                 <article class="article4 from-right">
                     <p class="p-article4"><a href="#projects">En cours</a></p>
