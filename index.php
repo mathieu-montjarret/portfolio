@@ -183,7 +183,7 @@ if ($_POST) {
                     <p class="text-pr1">Tous femme</p>
                 </a>
 
-                <a href="vieniagustare/index.php" target="_blank" class="from-left projectc">
+                <a href="vieniagustare/accueil.php" target="_blank" class="from-left projectc">
                     <img src="assets/img/vieniagustare.png" alt="Restaurant Vieni A Gustare" class="project2">
                     <p class="text-pr2">Vieni A Gustare</p>
                 </a>
