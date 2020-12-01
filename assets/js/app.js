@@ -72,15 +72,14 @@ $(document).ready(function () {
 
   /*            projects gallery            */     
   
-  const article = [1,2,3,4];
-  article.map((value,index) => {
-    $(`.article${value}`).mouseenter(function () {
-      $(`.p-article${value}`).css('visibility', 'visible');
-      $(`.p-article${value}`).animate({opacity: 1}, 1000);
+  const project = [1,2,3,4];
+  project.map((value,index) => {
+    $(`.project${value}`).mouseenter(function () {
+      $(`.text-pr${value}`).animate({opacity: 1}, 1000);
     });
   
-    $(`.article${value}`).mouseleave(function () {
-      $(`.p-article${value}`).animate({opacity: 0}, 1000);
+    $(`.project${value}`).mouseleave(function () {
+      $(`.text-pr${value}`).animate({opacity: 0}, 1000);
     });
   }) 
 });

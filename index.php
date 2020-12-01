@@ -177,18 +177,27 @@ if ($_POST) {
             <h2>Projets</h2>
 
             <div class="inline-projects">
-                <article class="article1 from-left">
-                    <p class="p-article1"><a href="https://tousfemme.fr/" target="_blank">Tous Femme</a></p>
-                </article>
-                <article class="article2 from-left">
-                    <p class="p-article2"><a href="vieniagustare/index.php">Vieni a Gustare</a></p>
-                </article>
-                <article class="article3 from-right">
-                    <p class="p-article3"><a href="meteo/index.html">Météo AJAX</a></p>
-                </article>
-                <article class="article4 from-right">
-                    <p class="p-article4"><a href="#projects">En cours</a></p>
-                </article>
+
+                <a href="https://tousfemme.fr/" target="_blank" class="from-left projectc">
+                    <img src="assets/img/tousfemme.png" alt="Association Tous femme" class="project1">
+                    <p class="text-pr1">Tous femme</p>
+                </a>
+
+                <a href="vieniagustare/index.php" target="_blank" class="from-left projectc">
+                    <img src="assets/img/vieniagustare.png" alt="Restaurant Vieni A Gustare" class="project2">
+                    <p class="text-pr2">Vieni A Gustare</p>
+                </a>
+
+                <a href="meteo/index.html" target="_blank" class="from-right projectc">
+                    <img src="assets/img/rain.jpg" alt="Météo AJAX" class="project3">
+                    <p class="text-pr3">Météo AJAX</p>
+                </a>
+
+                <a href="#projects" class="from-right projectc">
+                    <img src="assets/img/inprogress.jpg" alt="" class="project4">
+                    <p class="text-pr4">Projet en cours</p>
+                </a>
+
             </div>
         </section>
 
