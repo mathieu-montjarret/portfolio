@@ -487,7 +487,25 @@ footer p {
     box-shadow: 10px 10px 6px -6px black;
 }
 
-.bg-dark article {
+.bg-dark .project1 {
+    -webkit-box-shadow: 10px 10px 6px -6px black;
+    -moz-box-shadow: 10px 10px 6px -6px black;
+    box-shadow: 10px 10px 6px -6px black;
+}
+
+.bg-dark .project2 {
+    -webkit-box-shadow: 10px 10px 6px -6px black;
+    -moz-box-shadow: 10px 10px 6px -6px black;
+    box-shadow: 10px 10px 6px -6px black;
+}
+
+.bg-dark .project3 {
+    -webkit-box-shadow: 10px 10px 6px -6px black;
+    -moz-box-shadow: 10px 10px 6px -6px black;
+    box-shadow: 10px 10px 6px -6px black;
+}
+
+.bg-dark .project4 {
     -webkit-box-shadow: 10px 10px 6px -6px black;
     -moz-box-shadow: 10px 10px 6px -6px black;
     box-shadow: 10px 10px 6px -6px black;
